@@ -92,6 +92,18 @@ public class DetallePersona extends AppCompatActivity {
         dialog.show();
     }
 
+    public void editar(View v){
+        Intent i = new Intent(DetallePersona.this, EditarPersona.class);
+        Bundle b2 = new Bundle();
+        b2.putInt("foto",fot);
+        b2.putString("cedula",cedula);
+        b2.putString("nombre",nombre);
+        b2.putString("apellido",apellido);
+        b2.putInt("sexo",sexo);
+        i.putExtra("datos",b2);
+        startActivity(i);
+    }
+
     public void onBackPressed(){
         finish();
         Intent i = new Intent(DetallePersona.this,Principal.class);

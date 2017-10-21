@@ -24,4 +24,16 @@ public class Metodos {
         }
         return false;
     }
+
+    public static boolean existenciaPersonaEditar(ArrayList<Persona> personas, String cedulaE, String cedulaActual){
+        if (!cedulaActual.equals(cedulaE)) {
+            if (exitenciaPersona(personas, cedulaE)) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        return false;
+    }
 }

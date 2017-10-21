@@ -22,6 +22,10 @@
 
     <string name="masculino">Masculino</string>
     <string name="femenino">Femenino</string>
+    <string name="titulo_editar">EDITAR PERSONA</string>
+    <string name="editar">Editar</string>
+    <string name="no_vacio">No puede ser vacio</string>
+    <string name="persona_editada_correctamente">Persona editada exitosamente</string>
     <string-array name="sexo">
         <item>@string/masculino</item>
         <item>@string/femenino</item>

@@ -66,4 +66,8 @@ public class Persona {
     public void guardar(){
         Datos.guardarPersona(this);
     }
+
+    public void editar(){
+        Datos.editarPersona(this);
+    }
 }

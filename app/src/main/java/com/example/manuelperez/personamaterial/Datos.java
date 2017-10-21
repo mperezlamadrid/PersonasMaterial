@@ -27,4 +27,8 @@ public class Datos {
         return false;
 
     }
+
+    public static void editarPersona(Persona p){
+        personas.set(0,p);
+    }
 }
